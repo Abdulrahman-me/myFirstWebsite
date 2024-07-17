@@ -1,0 +1,32 @@
+@font-face {
+    font-family: pop;
+    src: url(Poppins-Medium.ttf);
+}
+*{
+    margin: 0;
+    font-family:pop;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-color: #081b39;
+    position: fixed;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    font-size: 20px;
+}
+.navbar a{
+    margin-right: 3px;
+    padding: 10px;
+}
